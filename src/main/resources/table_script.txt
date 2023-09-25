@@ -1,0 +1,7 @@
+CREATE TABLE `employee` (
+  `ID` bigint NOT NULL AUTO_INCREMENT,
+  `name` varchar(55) NOT NULL,
+  `email` varchar(55) NOT NULL,
+  `salary` bigint NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb3
